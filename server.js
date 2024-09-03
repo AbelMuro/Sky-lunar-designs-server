@@ -1,6 +1,8 @@
 const express = require('express');
-const app = express();                                        //creating an object that represents the main app
+const app = express();                                       
 const port = 4000;
+
+//now i need to implement authentication with node.js
 
 app.get('/', (req, res) => {
     res.send('Hello World')
